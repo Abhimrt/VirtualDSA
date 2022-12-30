@@ -1,0 +1,58 @@
+/* basic css */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  flex-direction: column;
+}
+
+/* app js */
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --backG: black;
+  --backG5: rgba(0, 0, 0, 0.5);
+  --col1:violet;
+}
+
+.ArrayBox {
+  width: 50px;
+  height: 50px;
+  background-color: violet;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  position: relative;
+}
+.ArrayBox p {
+  font-size: 1.4rem;
+  color: white;
+}
+.ArrayBox span {
+  position: absolute;
+  bottom: -1.2rem;
+}
+.ArrayBox .up {
+  top: -1.2rem;
+}
+
+.arrow img {
+  width: 50px;
+}/*# sourceMappingURL=main.css.map */
