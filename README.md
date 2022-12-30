@@ -1,7 +1,7 @@
 
 # Virtual DSA
 
-In this project I am try to build a virtual representation of the Algorithms and Implementation of that algorithms
+In this project, I am trying to build a virtual representation of the Algorithms and Implementation of that algorithms.
 
 
 ## Run Locally
