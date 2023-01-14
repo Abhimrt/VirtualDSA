@@ -18,6 +18,16 @@
   flex-direction: column;
 }
 
+.box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100vw;
+  height: 15px;
+  z-index: 9;
+  background-color: #fff;
+}
+
 /* app js */
 .App {
   width: 100vw;
